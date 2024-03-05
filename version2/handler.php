@@ -8,8 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         if (!empty($name) && !empty($password)) {
             echo "<h1>Hello there, $name, here are your details:>> </h1>
-<h2>Name:  $name </h2>
-<h2>Password:  $password</h2>";
+            <h2>Name:  $name </h2>
+            <h2>Password:  $password</h2>";
         } else {
             echo "<h2>Please fill in all the fields.</h2>";
         }
