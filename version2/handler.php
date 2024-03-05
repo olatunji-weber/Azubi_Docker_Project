@@ -14,8 +14,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             echo "<h2>Please fill in all the fields.</h2>";
         }
     } else {
-        echo "<h2>Please fill in all the fields.</h2>";
+        echo "<h3>Please fill in all the fields.</h3>";
     }
 } else {
-    echo "<h2>Invalid request method.</h2>";
+    echo "<h3>Invalid request method.</h3>";
 }
